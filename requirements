@@ -6,7 +6,12 @@ pandas==0.24.2
 Shapely==1.6.4.post2
 traitlets==4.3.2
 traittypes==0.2.1
-streamlit-keplergl==0.1.0
+gdal==3.0.2
+wheel==0.37.0
+fiona==1.8.13.p.
 keplergl==0.3.2
+streamlit-keplergl==0.1.0
+
+
 
 
