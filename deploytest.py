@@ -1,3 +1,5 @@
+pip install -r requirements.txt
+
 # import module
 import streamlit as st
 import pandas as pd
