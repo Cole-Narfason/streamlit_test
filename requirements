@@ -1,27 +1,8 @@
 streamlit
-default-jre
-geopandas==0.5.0
-ipywidgets==7.4.2
-pandas==0.24.2
-Shapely==1.6.4.post2
-traitlets==4.3.2
-traittypes==0.2.1
-gdal==3.0.2
-wheel==0.37.0
-fiona==1.8.13.p.
---find-links=https://girder.github.io/large_image_wheels GDAL
-geopandas
-keplergl
-palettable
-localtileserver
-streamlit
 streamlit-folium
 streamlit-keplergl
-streamlit-bokeh-events
-# leafmap
-# geemap
-git+https://github.com/giswqs/leafmap
-git+https://github.com/giswqs/geemap
+git+git://github.com/giswqs/whitebox
+git+git://github.com/giswqs/leafmap
 
 
 
