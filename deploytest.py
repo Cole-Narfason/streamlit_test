@@ -1,4 +1,3 @@
-pip install keplergl
 
 # import module
 import streamlit as st
