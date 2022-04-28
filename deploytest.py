@@ -4,8 +4,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import keplergl
-import streamlit_keplergl
 from keplergl import KeplerGl
 from streamlit_keplergl import keplergl_static
  
