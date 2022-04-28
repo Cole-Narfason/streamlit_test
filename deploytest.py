@@ -3,8 +3,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from keplergl import KeplerGl
-from streamlit_keplergl import keplergl_static
+#from keplergl import KeplerGl
+#from streamlit_keplergl import keplergl_static
  
 # Title
 st.title("Streamlit Deploy Test")
