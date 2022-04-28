@@ -1,5 +1,4 @@
-streamlit>=0.79
-streamlit-keplergl==0.1.0
-keplergl
+streamlit
+streamlit-keplergl
 
 
