@@ -4,6 +4,7 @@ numpy==1.21.2
 plotly==4.14.3
 shapely==1.7.1
 gdal==3.0.2
+wheel==0.37.0
 fiona==1.8.13.p...
 keplergl==0.1.0a6
 streamlit-keplergl==0.1.0
