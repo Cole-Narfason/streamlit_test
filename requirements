@@ -7,5 +7,5 @@ gdal==3.0.2
 wheel==0.37.0
 fiona==1.8.13.p...
 streamlit-keplergl==0.1.0
-keplergl==0.3.2
+
 
