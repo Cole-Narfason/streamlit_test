@@ -2,9 +2,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import keplergl
+from streamlit_keplergl import keplergl_static
+#import keplergl
 from keplergl import KeplerGl
-#from streamlit_keplergl import keplergl_static
+
  
 # Title
 st.title("Streamlit Deploy Test")
