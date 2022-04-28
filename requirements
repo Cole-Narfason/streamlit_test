@@ -1,11 +1,4 @@
-streamlit==1.3.1
-pandas==1.3.4
-numpy==1.21.2
-plotly==4.14.3
-shapely==1.7.1
-gdal==3.0.2
-wheel==0.37.0
-fiona==1.8.13.p...
-streamlit-keplergl==0.1.0
+streamlit>=0.79
+keplergl
 
 
