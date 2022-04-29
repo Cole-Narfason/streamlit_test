@@ -3,7 +3,7 @@ streamlit-folium
 streamlit-keplergl
 git+git://github.com/giswqs/whitebox
 git+git://github.com/giswqs/leafmap
-
+pydeck==0.7.1
 
 
 
