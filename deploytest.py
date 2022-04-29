@@ -1,18 +1,12 @@
 import streamlit as st
 import pydeck as pdk
 
-UK_ACCIDENTS_DATA = 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/3d-heatmap/heatmap-data.csv'
+DATA = 'usa.geojson'
 
 layer = pdk.Layer(
-    'HexagonLayer',  # `type` positional argument is here
-    UK_ACCIDENTS_DATA,
-    get_position=['lng', 'lat'],
-    auto_highlight=True,
-    elevation_scale=50,
-    pickable=True,
-    elevation_range=[0, 3000],
-    extruded=True,
-    coverage=1)
+    'GeoJsonLayer',  # `type` positional argument is here
+    DATA,
+)
 
 # Set the viewport location
 view_state = pdk.ViewState(
