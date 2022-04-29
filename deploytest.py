@@ -26,7 +26,7 @@ view_state = pdk.ViewState(
 
 # Combined all of it and render a viewport
 st.pydeck_chart(pdk.Deck(layers=[layer], initial_view_state=view_state))
-r.to_html('hexagon-example.html')
+#r.to_html('hexagon-example.html')
 #st.pydeck_chart(r)
 
 
